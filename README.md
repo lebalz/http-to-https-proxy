@@ -23,5 +23,5 @@ dokku domains:add proxy proxy.foo.com
 ```bash
 # on your local machine
 git remote add dokku dokku@<your-ip>:proxy
-git push -u dokku
+git push dokku
 ```
